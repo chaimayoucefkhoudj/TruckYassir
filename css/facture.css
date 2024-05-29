@@ -1,0 +1,71 @@
+body, html {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.main {
+    margin: 24px 0;
+    width: 100%;
+}
+
+.wrapper {
+    width: max-content;
+    margin: 0 auto;
+    min-width: 680px;
+    max-width: 100%;
+    border: 2px solid gray;
+    padding: 20px;
+}
+
+.top {
+    display: flex;
+    gap: 160px;
+}
+
+.section {
+    margin-bottom: 64px;
+}
+
+.section-sm {
+    margin-bottom: 32px;
+}
+
+.facture-content {
+    display: flex;
+    gap: 160px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bottom {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    min-height: 250px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:last-child {
+    background-color: #f2f2f2;
+}
